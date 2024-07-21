@@ -1,0 +1,53 @@
+body {
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#highest-level {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;          
+    align-items: center; 
+}
+
+.line-one,
+.line-two {
+    display: flex;
+} 
+
+.red {
+    background-color: #f51010;
+}
+
+.yellow {
+    background-color: #e8De2a;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.blue {
+    background-color: #0000ff;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: #08d512;
+}
